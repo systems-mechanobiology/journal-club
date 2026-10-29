@@ -1,0 +1,79 @@
+title: "[Journal | Year] Full paper title"
+body:
+  - type: markdown
+    attributes:
+      value: "Recommend a paper in English. Search its DOI first to avoid duplicate discussions. A complete review is optional."
+  - type: input
+    id: citation
+    attributes:
+      label: Citation
+      description: "Full title, authors, journal, and online publication year."
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: DOI or publisher link
+    validations:
+      required: true
+  - type: dropdown
+    id: article-type
+    attributes:
+      label: Article type
+      options:
+        - Original research
+        - Review
+        - Perspective or commentary
+        - Other (explain below)
+    validations:
+      required: true
+  - type: dropdown
+    id: primary-topic
+    attributes:
+      label: Primary topic
+      description: "Choose the main scientific question. Maintainers may add secondary topic labels."
+      options:
+        - Biology
+        - Health
+        - General Medicine
+        - Neuroscience
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why bring this paper to the group?
+      description: "One or two sentences on its scientific relevance."
+    validations:
+      required: true
+  - type: textarea
+    id: temporal
+    attributes:
+      label: Time Series connection (optional)
+      description: "If relevant, describe signals, repeated observations, rhythms, or dynamics. Otherwise leave blank."
+  - type: textarea
+    id: questions
+    attributes:
+      label: Questions for discussion
+      description: "Add one to three questions; later comments can add more."
+  - type: dropdown
+    id: depth
+    attributes:
+      label: Your reading depth
+      options:
+        - Citation checked
+        - Abstract screened
+        - Full text read
+        - Full text and supplements read
+    validations:
+      required: true
+  - type: textarea
+    id: analysis
+    attributes:
+      label: Presenter analysis (optional)
+      description: "Problem, contribution, decisive figures, limitations, and journal fit. Separate evidence from interpretation."
+  - type: textarea
+    id: resources
+    attributes:
+      label: Related resources (optional)
+      description: "Code, data, public peer review, related papers, or accessible manuscripts."

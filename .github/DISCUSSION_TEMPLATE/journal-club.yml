@@ -1,0 +1,51 @@
+title: "[YYYY-MM-DD] Journal Club - Session topic"
+body:
+  - type: markdown
+    attributes:
+      value: "Use English. Link existing paper discussions so paper-specific questions stay together."
+  - type: input
+    id: session
+    attributes:
+      label: Date, time, and time zone
+      placeholder: "YYYY-MM-DD, HH:MM, Europe/London"
+    validations:
+      required: true
+  - type: input
+    id: people
+    attributes:
+      label: Presenter and facilitator
+      description: "Name confirmed participants; indicate roles that remain unassigned."
+  - type: textarea
+    id: papers
+    attributes:
+      label: Paper discussion links
+      description: "Link each paper's canonical discussion."
+    validations:
+      required: true
+  - type: textarea
+    id: preparation
+    attributes:
+      label: Before the meeting
+      value: "Please add one question or observation to a linked paper discussion."
+  - type: textarea
+    id: agenda
+    attributes:
+      label: Discussion agenda
+      description: "Choose a small number of substantive questions."
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: After the meeting
+      description: "Complete after the session, preserving disagreements and linking paper-summary comments."
+      value: |
+        Main takeaways:
+
+        Remaining disagreements:
+
+        Open questions:
+
+        Links to paper-summary comments:
+
+        Follow-up issues:

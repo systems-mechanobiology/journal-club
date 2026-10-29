@@ -1,0 +1,34 @@
+title: "[Comparison] Research question"
+body:
+  - type: markdown
+    attributes:
+      value: "Compare evidence across papers in English. An open question is welcome; a settled conclusion is not required."
+  - type: textarea
+    id: question
+    attributes:
+      label: Question and scope
+    validations:
+      required: true
+  - type: textarea
+    id: papers
+    attributes:
+      label: Papers or discussions being compared
+      description: "Provide DOI links or existing discussion links for at least two papers."
+    validations:
+      required: true
+  - type: textarea
+    id: comparison
+    attributes:
+      label: Comparison
+      description: "Compare contributions, evidence, assumptions, or study design; identify source locations."
+    validations:
+      required: true
+  - type: textarea
+    id: uncertainty
+    attributes:
+      label: Counterexamples and unresolved questions
+      description: "What weakens the proposed interpretation, or needs further checking?"
+  - type: textarea
+    id: implications
+    attributes:
+      label: Implications for our research (optional)

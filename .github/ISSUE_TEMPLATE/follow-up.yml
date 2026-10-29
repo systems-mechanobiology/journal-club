@@ -1,0 +1,33 @@
+name: Research or curation follow-up
+description: Track a concrete task arising from a discussion or catalog correction.
+title: "[Follow-up] "
+body:
+  - type: markdown
+    attributes:
+      value: "Use English. Paper reviews and open-ended questions belong in Discussions; issues track work with a completion condition."
+  - type: textarea
+    id: source
+    attributes:
+      label: Source discussion or paper
+      description: "Link the originating discussion, DOI, or catalog entry."
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: Task
+      description: "What specific work needs to be done?"
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Completion criteria
+      description: "What evidence or deliverable will resolve this task?"
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: Proposed owner (optional)
+      description: "Suggest a person or volunteer; this field does not assign the issue automatically."

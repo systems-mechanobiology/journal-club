@@ -1,0 +1,23 @@
+title: "[Question] Specific question"
+body:
+  - type: markdown
+    attributes:
+      value: "Ask in English. If this is a critique of a specific paper, prefer a comment in that paper's discussion."
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and source
+      description: "Link the paper or discussion and identify the relevant figure, method, or passage."
+    validations:
+      required: true
+  - type: textarea
+    id: understanding
+    attributes:
+      label: Current understanding (optional)
+      description: "Explain what you understand so far and where you are uncertain."

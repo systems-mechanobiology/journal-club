@@ -1,0 +1,82 @@
+[
+  {
+    "name": "topic:biology",
+    "color": "1D76DB",
+    "description": "Topic: biology"
+  },
+  {
+    "name": "topic:health",
+    "color": "1D76DB",
+    "description": "Topic: health"
+  },
+  {
+    "name": "topic:general-medicine",
+    "color": "1D76DB",
+    "description": "Topic: general medicine"
+  },
+  {
+    "name": "topic:neuroscience",
+    "color": "1D76DB",
+    "description": "Topic: neuroscience"
+  },
+  {
+    "name": "collection:time-series",
+    "color": "5319E7",
+    "description": "Collection: time series"
+  },
+  {
+    "name": "reading:proposed",
+    "color": "FBCA04",
+    "description": "Reading: proposed"
+  },
+  {
+    "name": "reading:scheduled",
+    "color": "FBCA04",
+    "description": "Reading: scheduled"
+  },
+  {
+    "name": "reading:discussed",
+    "color": "FBCA04",
+    "description": "Reading: discussed"
+  },
+  {
+    "name": "contribution:method",
+    "color": "0E8A16",
+    "description": "Contribution: method"
+  },
+  {
+    "name": "contribution:discovery",
+    "color": "0E8A16",
+    "description": "Contribution: discovery"
+  },
+  {
+    "name": "contribution:resource",
+    "color": "0E8A16",
+    "description": "Contribution: resource"
+  },
+  {
+    "name": "contribution:evaluation",
+    "color": "0E8A16",
+    "description": "Contribution: evaluation"
+  },
+  {
+    "name": "contribution:association",
+    "color": "0E8A16",
+    "description": "Contribution: association"
+  },
+  {
+    "name": "contribution:prediction",
+    "color": "0E8A16",
+    "description": "Contribution: prediction"
+  },
+  {
+    "name": "contribution:theory",
+    "color": "0E8A16",
+    "description": "Contribution: theory"
+  },
+  {
+    "name": "task:follow-up",
+    "color": "D93F0B",
+    "description": "Task: follow up"
+  }
+]
