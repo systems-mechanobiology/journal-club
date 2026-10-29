@@ -1,1 +1,8 @@
 blank_issues_enabled: false
+contact_links:
+  - name: Paper discussions and journal club
+    url: https://github.com/systems-mechanobiology/journal-club/discussions
+    about: Recommend papers, discuss evidence, and organize reading sessions.
+  - name: Questions and help
+    url: https://github.com/systems-mechanobiology/journal-club/discussions/categories/questions-help
+    about: Ask questions about methods, figures, terminology, or scientific reading.

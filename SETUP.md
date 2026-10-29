@@ -1,29 +1,28 @@
-# GitHub setup
+# GitHub setup and maintenance
 
-## Prepared locally
+## Live repository
 
-The local folder is `systembio-journal-club`. Suggested remote repository name: `journal-club`, under the intended SystemBio account or organization. Confirm the exact GitHub owner when creating the repository; this package does not assume an existing account URL.
+The public repository is [systems-mechanobiology/journal-club](https://github.com/systems-mechanobiology/journal-club). The local folder is `systembio-journal-club`; the default branch is `main`.
 
 Display name: **SystemBio Journal Club**
 
-Suggested description:
+Repository description:
 
 > A journal club for biology, health, medicine, and neuroscience, with curated Nature Portfolio papers and open scientific discussion.
 
 The package contains 12 citation-checked candidates, four topic views, a Time Series collection, forum forms, an actionable issue form, a PR template, and a label manifest.
 
-**Remote state:** No repository, hosted discussion, label, or category has been created by preparing these files.
+**Configuration applied on 2026-10-29:** Discussions and Issues are enabled; the four categories below and the 16 labels in `.github/labels.json` are configured. Unused default categories and labels were removed. The wiki is disabled because the repository files and discussions provide the reading record.
 
-## Activate the repository
+## Maintain the configuration
 
-1. Create the repository under the intended owner with the chosen visibility. Upload or push only this folder's contents to the root of the default branch.
-2. Enable **Discussions** and **Issues** in repository settings.
-3. Create the four categories below. Use the exact category names and verify their slugs against the template filenames.
-4. Create the labels in `.github/labels.json`. This file is a setup manifest, not an automatically applied GitHub configuration.
-5. Open each category's new-discussion form and check that its fields render correctly.
-6. Publish and pin a welcome discussion explaining the scope, English-language policy, and how to join.
-7. Open an initial paper discussion from a catalog entry. Copy its real URL into the catalog.
-8. Create a Journal Club session only when its date and participants are known.
+1. Propose changes to the catalog, guides, and forms through pull requests.
+2. Keep category slugs aligned with the filenames in `.github/DISCUSSION_TEMPLATE/`.
+3. Keep hosted labels aligned with `.github/labels.json`. The file is a manifest, not an automatically applied GitHub configuration.
+4. Check the rendered new-discussion form after changing its YAML template.
+5. When a paper discussion is opened, copy its real URL into the catalog.
+6. Create a Journal Club session only when its date and participants are known.
+7. A welcome discussion may be published and pinned in Journal Club when the group is ready to introduce itself.
 
 Repository creation, category creation, and publishing welcome or paper posts are separate hosted actions. Discussion forms become available only when the matching categories exist and the files are on the default branch.
 
@@ -36,7 +35,7 @@ Repository creation, category creation, and publishing welcome or paper posts ar
 | Cross-Paper Insights | `cross-paper-insights.yml` | Open-ended | Evidence-based comparisons across papers |
 | Questions & Help | `questions-help.yml` | Question and answer | Focused questions and explanations |
 
-Verify the generated slug for **Questions & Help** in GitHub before activation; rename its form file if GitHub produces a different slug. Pin the welcome post in Journal Club. Remove or repurpose unused default categories to keep navigation focused.
+The live slug for **Questions & Help** is `questions-help`, matching the template filename. The four categories were verified against GitHub's repository configuration.
 
 Scientific topics are labels and repository folders, not separate forum categories. A paper spanning health and neuroscience should still have one discussion.
 
@@ -59,7 +58,7 @@ Form dropdowns record information in the post body; they do **not** dynamically 
 
 For public repositories, GitHub users can join accessible discussions without write access. For private repositories, invite participants with the needed repository access.
 
-## Launch checks
+## Maintenance checks
 
 - All community-facing content is in English.
 - The four category forms render on GitHub.
