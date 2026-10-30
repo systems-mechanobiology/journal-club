@@ -219,6 +219,6 @@ Thirteen selected papers for SystemBio Journal Club. P13 includes prepared prese
 - **Provisional contribution:** Method; Prediction
 - **Reading depth:** Main article read; six-slide figure discussion and assessment table prepared; group discussion pending
 - **Materials:** [Paper folder and English presentation](papers/2023/life2vec/README.md)
-- **Discussion:** Not opened
+- **Discussion:** [Paper discussion and journal club questions](https://github.com/systems-mechanobiology/journal-club/discussions/2)
 - **Opening question:** How much of the contribution comes from national linked data, the sequence representation, and new scientific insight, respectively?
 - **Metadata source:** Published article, title page and Methods; checked during presentation preparation.

@@ -7,6 +7,7 @@
 - **Primary topic:** Health
 - **Collection:** [Time Series](../../../collections/time-series/README.md)
 - **Presentation:** [Download the six-slide English PowerPoint](life2vec-journal-club.pptx?raw=true)
+- **Discussion:** [Join the paper discussion and journal club questions](https://github.com/systems-mechanobiology/journal-club/discussions/2)
 
 ## Presentation
 
