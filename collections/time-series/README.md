@@ -19,6 +19,7 @@ This collection includes measured biological signals, longitudinal observations,
 | [P09: Psilocybin desynchronizes the human brain](../../CATALOG.md#p09) | Neuroscience | Longitudinal functional imaging |
 | [P10: Geometric constraints on human brain function](../../CATALOG.md#p10) | Neuroscience | Brain dynamics |
 | [P11: MARBLE: interpretable representations of neural population dynamics using geometric deep learning](../../CATALOG.md#p11) | Neuroscience | Neural population dynamics |
+| [P13: Using sequences of life-events to predict human lives](../../CATALOG.md#p13) | Health | Longitudinal health and socioeconomic event sequences |
 
 ## Related study-design context
 

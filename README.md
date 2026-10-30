@@ -37,6 +37,6 @@ The initial collection focuses on original research in Nature and relevant Natur
 
 ## Current collection
 
-The initial catalog contains 12 screened reading candidates. Their citation metadata have been checked; the entries are starting points for discussion, not completed group reviews. Topic membership describes the scientific question, not the journal name.
+The catalog contains 13 selected papers. The initial 12 entries are citation-checked reading candidates; [P13: life2vec](papers/2023/life2vec/README.md) also includes a six-slide English presentation. These are starting points for discussion, not completed group reviews. Topic membership describes the scientific question, not the journal name.
 
 Maintainers: see [GitHub setup and maintenance](SETUP.md) for the live configuration, labels, and maintenance notes.

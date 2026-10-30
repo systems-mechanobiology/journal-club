@@ -1,12 +1,12 @@
 # Paper catalog
 
-Twelve selected starting points for SystemBio Journal Club. All are proposed for reading; none is recorded as discussed.
+Thirteen selected papers for SystemBio Journal Club. P13 includes prepared presentation materials; none is recorded as discussed.
 
-**Verification:** Titles, journal names, DOIs, and online publication dates were checked against publisher pages and/or publisher-deposited Crossref metadata on 2026-10-28. This is citation verification, not a full-text evidence audit. Contribution tags and questions are provisional reading aids.
+**Verification:** Citation metadata for P01–P12 were checked against publisher pages and/or publisher-deposited Crossref metadata on 2026-10-28. P13 was checked against the published article during presentation preparation. Reading depth is recorded separately for each entry. Contribution tags and questions are provisional reading aids.
 
-**Dates:** Use online publication dates consistently. P01 appeared online in 2025 and in a 2026 issue. P05 appeared online in 2023 and in a 2024 issue.
+**Dates:** Use online publication dates consistently. P01 appeared online in 2025 and in a 2026 issue. P05 and P13 appeared online in 2023 and in 2024 issues.
 
-**Discussion links:** No remote threads exist yet. After creating a paper discussion, replace its "Not opened" value with the real GitHub URL. Do not create duplicate threads for different topics or meetings.
+**Discussion links:** Use the linked paper thread when one exists. "Not opened" means no thread has been created for that entry. Do not create duplicate threads for different topics or meetings.
 
 ## Index
 
@@ -24,6 +24,7 @@ Twelve selected starting points for SystemBio Journal Club. All are proposed for
 | [P10](#p10) | Geometric constraints on human brain function | Neuroscience | Nature | 2023 | Proposed |
 | [P11](#p11) | MARBLE: interpretable representations of neural population dynamics using geometric deep learning | Neuroscience | Nature Methods | 2025 | Proposed |
 | [P12](#p12) | Reproducible brain-wide association studies require thousands of individuals | Neuroscience | Nature | 2022 | Proposed |
+| [P13](#p13) | Using sequences of life-events to predict human lives | Health | Nature Computational Science | 2023 | Materials prepared |
 
 ## P01
 
@@ -204,3 +205,20 @@ Twelve selected starting points for SystemBio Journal Club. All are proposed for
 - **Discussion:** Not opened
 - **Opening question:** Why does sample-size reasoning differ between between-person associations and intensive within-person studies?
 - **Metadata source:** [Crossref record](https://api.crossref.org/works/10.1038/s41586-022-04492-9); publisher link above.
+
+## P13
+
+**[Using sequences of life-events to predict human lives](https://www.nature.com/articles/s43588-023-00573-5)**
+
+- **Authors:** Savcisens et al.
+- **Journal:** Nature Computational Science 4, 43–56 (2024)
+- **First published online:** 2023-12-18
+- **DOI:** [10.1038/s43588-023-00573-5](https://doi.org/10.1038/s43588-023-00573-5)
+- **Primary topic:** Health
+- **Temporal connection:** Longitudinal health and socioeconomic event sequences
+- **Provisional contribution:** Method; Prediction
+- **Reading depth:** Main article read; six-slide figure discussion and assessment table prepared; group discussion pending
+- **Materials:** [Paper folder and English presentation](papers/2023/life2vec/README.md)
+- **Discussion:** [Paper discussion and journal club questions](https://github.com/systems-mechanobiology/journal-club/discussions/2)
+- **Opening question:** How much of the contribution comes from national linked data, the sequence representation, and new scientific insight, respectively?
+- **Metadata source:** Published article, title page and Methods; checked during presentation preparation.
